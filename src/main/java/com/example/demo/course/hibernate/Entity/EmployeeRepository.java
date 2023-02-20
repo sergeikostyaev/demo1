@@ -8,5 +8,6 @@ import org.springframework.stereotype.Repository;
 public interface EmployeeRepository extends JpaRepository<Employee,Integer> {
 
 
-
+    @Override
+    Employee getById(Integer integer);
 }
