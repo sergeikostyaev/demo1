@@ -1,4 +1,4 @@
-package com.example.demo.course.hibernate_one_to_many_bi;
+package com.example.demo.course.hibernate_one_to_many_uni;
 
 import com.example.demo.course.hibernate_one_to_many_bi.entity.Department;
 import com.example.demo.course.hibernate_one_to_many_bi.entity.Employee;
@@ -43,7 +43,7 @@ public class Test1 {
 
 
 
-           session.delete(department.getEmps().get(1));
+            session.delete(department.getEmps().get(1));
 
 
 
@@ -61,4 +61,3 @@ public class Test1 {
 
     }
 }
-

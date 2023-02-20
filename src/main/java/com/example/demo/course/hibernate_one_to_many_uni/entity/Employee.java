@@ -1,10 +1,8 @@
-package com.example.demo.course.hibernate_one_to_many_bi.entity;
+package com.example.demo.course.hibernate_one_to_many_uni.entity;
 
-import com.example.demo.course.hibernate_one_to_one.entity.Detail;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
-import lombok.ToString;
 
 @Entity
 @Table(name="employees")
